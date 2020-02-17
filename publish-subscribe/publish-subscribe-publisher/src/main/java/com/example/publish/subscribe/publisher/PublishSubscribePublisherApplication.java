@@ -9,7 +9,7 @@ public class PublishSubscribePublisherApplication {
     public static void main(String[] args) {
         SpringApplication.run(PublishSubscribePublisherApplication.class, args);
 
-        System.out.println("********* INICIANDO PUBLISH SUBSCRIBE PUBUBLISHER ********* ");
+        System.out.println("********* START PUBLISH SUBSCRIBE PUBLISHER ********* ");
 
         PublishSubscribePublisherProgram program = new PublishSubscribePublisherProgram();
         program.init();

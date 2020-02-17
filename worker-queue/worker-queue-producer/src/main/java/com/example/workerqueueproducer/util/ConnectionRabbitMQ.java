@@ -5,7 +5,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import java.io.InputStream;
 import java.util.Properties;
 
-public abstract class ConnectionRabbitMq {
+public abstract class ConnectionRabbitMQ {
     private static Properties properties = new Properties();
 
     public static ConnectionFactory getConnectionFactory() {
@@ -25,7 +25,7 @@ public abstract class ConnectionRabbitMq {
     }
 
     private static void loadProperties() {
-        try (InputStream input = ConnectionRabbitMq.class.getClassLoader().getResourceAsStream("connection.properties")) {
+        try (InputStream input = ConnectionRabbitMQ.class.getClassLoader().getResourceAsStream("connection.properties")) {
             properties.load(input);
         } catch (Exception e) {
             System.err.println(e.toString());

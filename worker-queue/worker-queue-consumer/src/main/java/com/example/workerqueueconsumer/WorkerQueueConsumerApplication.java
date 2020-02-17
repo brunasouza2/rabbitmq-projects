@@ -9,7 +9,7 @@ public class WorkerQueueConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(WorkerQueueConsumerApplication.class, args);
 
-        System.out.println("********* INICIANDO WORKER QUEUE Consumer ********* ");
+        System.out.println("********* START WORKER QUEUE CONSUMER ********* ");
 
         WorkerQueueConsumerProgram program = new WorkerQueueConsumerProgram();
         program.init();

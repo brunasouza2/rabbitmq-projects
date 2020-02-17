@@ -1,14 +1,14 @@
 package br.com.example.payment.common;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.io.Serializable;
 
 @Getter
 @Setter
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class PurchaseOrder implements Serializable {
     // Classe de pedido de compra
     private double amountToPay; //montante a pagar

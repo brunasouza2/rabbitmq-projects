@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7393ee-0e2d-4804-877c-0e814bc6d835" name="Default Changelist" comment="" />
+    <list default="true" id="5e7393ee-0e2d-4804-877c-0e814bc6d835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-publisher/src/main/java/com/example/direct/routing/publisher/DirectRoutingPublisherProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-publisher/src/main/java/com/example/direct/routing/publisher/util/ConnectionRabbitMQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-publisher/src/main/resources/connection.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-subscriber1/src/main/java/com/example/direct/routing/subscriber1/DirectRoutingSubscriber1Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-subscriber1/src/main/java/com/example/direct/routing/subscriber1/util/ConnectionRabbitMQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-subscriber1/src/main/resources/connection.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-subscriber2/src/main/java/com/example/direct/routing/subscriber2/DirectRoutingSubscriber2Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-subscriber2/src/main/java/com/example/direct/routing/subscriber2/util/ConnectionRabbitMQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../direct-routing/direct-routing-subscriber2/src/main/resources/connection.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../standard-queue/src/main/java/com/example/standard/queue/StandardQueueProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../standard-queue/src/main/java/com/example/standard/queue/util/ConnectionRabbitMQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../standard-queue/src/main/resources/connection.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/example/payment/common/PurchaseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/example/payment/common/PurchaseOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/example/payment/common/PurchaseOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/example/payment/common/PurchaseOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/payment-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/payment-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../publish-subscribe/publish-subscribe-publisher/src/main/java/com/example/publish/subscribe/publisher/PublishSubscribePublisherApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../publish-subscribe/publish-subscribe-publisher/src/main/java/com/example/publish/subscribe/publisher/PublishSubscribePublisherApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../publish-subscribe/publish-subscribe-subscriber/src/main/java/com/example/publish/subscribe/subscriber/PublishSubscribeSubscriberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../publish-subscribe/publish-subscribe-subscriber/src/main/java/com/example/publish/subscribe/subscriber/PublishSubscribeSubscriberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../publish-subscribe/publish-subscribe-subscriber/src/main/java/com/example/publish/subscribe/subscriber/PublishSubscribeSubscriberProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../publish-subscribe/publish-subscribe-subscriber/src/main/java/com/example/publish/subscribe/subscriber/PublishSubscribeSubscriberProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker-queue/worker-queue-consumer/src/main/java/com/example/workerqueueconsumer/WorkerQueueConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../worker-queue/worker-queue-consumer/src/main/java/com/example/workerqueueconsumer/WorkerQueueConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker-queue/worker-queue-consumer/src/main/java/com/example/workerqueueconsumer/WorkerQueueConsumerProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../worker-queue/worker-queue-consumer/src/main/java/com/example/workerqueueconsumer/WorkerQueueConsumerProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker-queue/worker-queue-consumer/src/main/java/com/example/workerqueueconsumer/util/ConnectionRabbitMq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../worker-queue/worker-queue-consumer/src/main/java/com/example/workerqueueconsumer/util/ConnectionRabbitMQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker-queue/worker-queue-producer/src/main/java/com/example/workerqueueproducer/WorkerQueueProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../worker-queue/worker-queue-producer/src/main/java/com/example/workerqueueproducer/WorkerQueueProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker-queue/worker-queue-producer/src/main/java/com/example/workerqueueproducer/WorkerQueueProducerProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../worker-queue/worker-queue-producer/src/main/java/com/example/workerqueueproducer/WorkerQueueProducerProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worker-queue/worker-queue-producer/src/main/java/com/example/workerqueueproducer/util/ConnectionRabbitMq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../worker-queue/worker-queue-producer/src/main/java/com/example/workerqueueproducer/util/ConnectionRabbitMQ.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,10 +51,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xm2AnOKafSXitNyp1T5JokUZ0x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/example/payment/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -29,7 +65,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,10 +95,22 @@
       <option name="presentableId" value="Default" />
       <updated>1581636807143</updated>
       <workItem from="1581636811197" duration="1392000" />
+      <workItem from="1581934463153" duration="647000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

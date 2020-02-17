@@ -9,7 +9,7 @@ public class WorkerQueueProducerApplication {
     public static void main(String[] args) {
         SpringApplication.run(WorkerQueueProducerApplication.class, args);
 
-        System.out.println("********* INICIANDO WORKER QUEUE PRODUCER ********* ");
+        System.out.println("********* START WORKER QUEUE PRODUCER ********* ");
 
         WorkerQueueProducerProgram program = new WorkerQueueProducerProgram();
         program.init();

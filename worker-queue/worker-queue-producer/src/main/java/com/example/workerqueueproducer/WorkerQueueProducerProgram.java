@@ -2,7 +2,7 @@ package com.example.workerqueueproducer;
 
 import br.com.example.payment.common.ObjectSerialize;
 import br.com.example.payment.common.Payment;
-import com.example.workerqueueproducer.util.ConnectionRabbitMq;
+import com.example.workerqueueproducer.util.ConnectionRabbitMQ;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -43,7 +43,7 @@ class WorkerQueueProducerProgram {
 
     private void createConnection(){
         try {
-            ConnectionFactory factory = ConnectionRabbitMq.getConnectionFactory();
+            ConnectionFactory factory = ConnectionRabbitMQ.getConnectionFactory();
             Connection connection = factory.newConnection();
             channel = connection.createChannel();
             channel.queueDeclare(QUEUE_NAME, true, false, false, null);

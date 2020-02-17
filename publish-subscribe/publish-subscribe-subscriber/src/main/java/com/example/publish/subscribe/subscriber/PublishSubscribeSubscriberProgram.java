@@ -13,17 +13,17 @@ class PublishSubscribeSubscriberProgram {
     private Channel channel = null;
     private final String EXCHANGE_NAME = "PublishSubscribe_Exchange";
 
-    void init(){
+    void init() {
         createConnection();
         receive();
     }
 
-    private void createConnection(){
+    private void createConnection() {
         try {
             ConnectionFactory factory = ConnectionRabbitMQ.getConnectionFactory();
             Connection connection = factory.newConnection();
             channel = connection.createChannel();
-      }catch (IOException | TimeoutException ex){
+        } catch (IOException | TimeoutException ex) {
             System.err.println("Não foi posssível criar conexão\n");
         }
     }
@@ -35,14 +35,14 @@ class PublishSubscribeSubscriberProgram {
                 public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body)
                         throws IOException {
                     String message = new String(body, "UTF-8");
-                    Payment payment = (Payment) ObjectSerialize.getInstance().deSerialize(message.getBytes(),Payment.class);
-                    System.out.println(" [x] Received : {"+payment+"}");
+                    Payment payment = (Payment) ObjectSerialize.getInstance().deSerialize(message.getBytes(), Payment.class);
+                    System.out.println(" [x] Received : {" + payment + "}");
                 }
             };
 
             String queueName = declareAndBindQueueToExchange();
             channel.basicConsume(queueName, true, consumer);
-        }catch (IOException ex){
+        } catch (IOException ex) {
             System.err.println("Não foi posssível receber mensagens\n");
         }
     }
@@ -53,7 +53,7 @@ class PublishSubscribeSubscriberProgram {
             String queueName = channel.queueDeclare().getQueue();
             channel.queueBind(queueName, EXCHANGE_NAME, "");
             return queueName;
-        }catch (Exception ex){
+        } catch (Exception ex) {
             System.err.println("Não foi posssível obter Queue Name\n");
         }
         return null;
